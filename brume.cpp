@@ -4,6 +4,7 @@
 int main(){
 	    int a = 36;
 	    int b = 32;
+	    int a1 = 39;
 	    std::cout<<std::setfill('.');
 	    
 	    //B
@@ -43,7 +44,7 @@ int main(){
 	  
 	     for(int p = 1; p < 3; p++){	  
 	     std::cout<<std::setfill('.');   	
-	   std::cout<<std::right<<std::setw<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
+	   std::cout<<std::right<<std::setw(a)<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
 	         }
 	  
 	  //R
@@ -85,7 +86,7 @@ int main(){
 	  
 	  for(int p = 1; p < 3; p++){	  
 	     std::cout<<std::setfill('.');   	
-	   std::cout<<std::right<<std::setw<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
+	   std::cout<<std::right<<std::setw(a)<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
 	         }
 	  
 	       //U
@@ -104,7 +105,7 @@ int main(){
 	        
 	        for(int p = 1; p < 3; p++){	  
 	     std::cout<<std::setfill('.');   	
-	   std::cout<<std::right<<std::setw<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
+	   std::cout<<std::right<<std::setw(a)<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
 	         }
 	         
 	         
@@ -122,7 +123,7 @@ int main(){
 	         
 	           for(int p = 1; p < 3; p++){	  
 	     std::cout<<std::setfill('.');   	
-	   std::cout<<std::right<<std::setw<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
+	   std::cout<<std::right<<std::setw(a)<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
 	         }
 	         
 	         
@@ -134,7 +135,7 @@ int main(){
 	         
 	         for(int i = 1; i < 4; i++){
 	         	     std::cout<<std::setfill('.');
-	         	     std::cout<<std::right<<std::setw(b)<<"********"<<std::left<<std::setw(a)<<"................"<<std::endl;
+	         	     std::cout<<std::right<<std::setw(b)<<"********"<<std::left<<std::setw(a1)<<"..................."<<std::endl;
 	         }
 	      
 	          for(int i = 1; i < 4; i++){
@@ -144,7 +145,7 @@ int main(){
 	         
 	          for(int i = 1; i < 4; i++){
 	         	     std::cout<<std::setfill('.');
-	         	     std::cout<<std::right<<std::setw(b)<<"********"<<std::left<<std::setw(a)<<"................"<<std::endl;
+	         	     std::cout<<std::right<<std::setw(b)<<"********"<<std::left<<std::setw(a1)<<"................"<<std::endl;
 	         } 
 	         
 	          for(int i = 1; i < 5; i++){
@@ -156,7 +157,7 @@ int main(){
 	         
 	           for(int p = 1; p < 3; p++){	  
 	     std::cout<<std::setfill('.');   	
-	   std::cout<<std::right<<std::setw<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
+	   std::cout<<std::right<<std::setw(a)<<"............"<<std::left<<std::setw(a)<<"................."<<std::endl;
 	         }
 	        
 	     std::cout<<"\nBy David Tamaratare Oghenebrume.\nIt took like 1hr+ to do!"<<std::endl;   
